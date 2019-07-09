@@ -320,3 +320,4 @@ class Client:
         url = '{}?tag={}'.format(self.api.LOG, tag)
 
         return self._get_model(url, model=Log)
+#
